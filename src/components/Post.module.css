@@ -1,0 +1,57 @@
+.Content {
+  position: relative;
+  bottom: 300px;
+  display: flex;
+  width: 736px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 1rem;
+
+  border-radius: 8px;
+  border: 1px solid green;
+  background: var(--Gray-500, #262626);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.informationTask {
+  width: 300px;
+  display: flex;
+  gap: 2rem;
+}
+.Content input:checked {
+  color: white;
+}
+.mainPost {
+  display: flex;
+  justify-content: center;
+}
+
+.deleteButton {
+  border-style: none;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 16px;
+  color: black;
+  background-color: rgb(186, 82, 82);
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.contentInput {
+  color: var(--gray-100);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+.radio {
+  list-style: none;
+  background-color: black;
+}
+
+.radioLabel:checked {
+}

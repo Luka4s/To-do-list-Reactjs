@@ -1,0 +1,27 @@
+.containerHeader {
+  background-color: var(--gray-700);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.To {
+  font-size: 16px;
+  color: var(--blue-color);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 12px;
+}
+.Do {
+  font-size: 16px;
+  color: var(--purple-color);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
